@@ -145,8 +145,7 @@ export default function AdminDashboard() {
                       </span>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">
-                      $
-                      {typeof product.price === "number"
+                      ₹{typeof product.price === "number"
                         ? product.price.toFixed(2)
                         : parseFloat(product.price).toFixed(2)}
                     </td>
@@ -221,7 +220,7 @@ export default function AdminDashboard() {
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        Price ($)
+                        Price (₹)
                       </label>
                       <input
                         type="number"
@@ -247,9 +246,10 @@ export default function AdminDashboard() {
                         }
                       >
                         <option value="">Select...</option>
-                        <option value="Clothing">Clothing</option>
-                        <option value="Accessories">Accessories</option>
-                        <option value="Shoes">Shoes</option>
+                        <option value="Snacks">Snacks</option>
+                        <option value="Sweets">Sweets</option>
+                        <option value="Pickles & Jams">Pickles &amp; Jams</option>
+                        <option value="Spices">Spices</option>
                       </select>
                     </div>
                   </div>

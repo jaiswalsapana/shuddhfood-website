@@ -233,7 +233,7 @@ export default function Checkout() {
                 >
                   {loading
                     ? "Processing..."
-                    : `Pay $${(total + (total > 100 ? 0 : 5) + total * 0.08).toFixed(2)}`}
+                    : `Pay ₹${(total + (total > 100 ? 0 : 5) + total * 0.08).toFixed(2)}`}
                 </button>
               </div>
             </form>
@@ -259,7 +259,7 @@ export default function Checkout() {
                         {item.name}
                       </h3>
                       <p className="ml-4 text-sm font-medium text-gray-900">
-                        ${(item.price * item.quantity).toFixed(2)}
+                      ₹{(item.price * item.quantity).toFixed(2)}
                       </p>
                     </div>
                     <p className="text-sm text-gray-500">Qty {item.quantity}</p>

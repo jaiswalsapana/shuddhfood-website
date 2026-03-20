@@ -37,7 +37,7 @@ export default function CartItem({ item }) {
 
         <div className="flex items-center justify-between">
           <p className="text-sm font-medium text-gray-900">
-            ${(item.price * item.quantity).toFixed(2)}
+            ₹{(item.price * item.quantity).toFixed(2)}
           </p>
 
           <div className="flex items-center gap-3">

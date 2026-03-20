@@ -55,25 +55,25 @@ export default function Cart() {
               <div className="flex justify-between pb-4 border-b border-gray-200">
                 <dt>Subtotal</dt>
                 <dd className="font-medium text-gray-900">
-                  ${total.toFixed(2)}
+                  ₹{total.toFixed(2)}
                 </dd>
               </div>
               <div className="flex justify-between pb-4 border-b border-gray-200">
                 <dt className="flex items-center">Shipping estimate</dt>
                 <dd className="font-medium text-gray-900">
-                  ${(total > 100 ? 0 : 5.0).toFixed(2)}
+                  ₹{(total > 100 ? 0 : 5.0).toFixed(2)}
                 </dd>
               </div>
               <div className="flex justify-between pb-4 border-b border-gray-200">
                 <dt className="flex items-center">Tax estimate</dt>
                 <dd className="font-medium text-gray-900">
-                  ${(total * 0.08).toFixed(2)}
+                  ₹{(total * 0.08).toFixed(2)}
                 </dd>
               </div>
               <div className="flex items-center justify-between pt-4 pb-2 border-t border-gray-200">
                 <dt className="text-lg font-bold text-gray-900">Order total</dt>
                 <dd className="text-lg font-bold text-gray-900">
-                  ${(total + (total > 100 ? 0 : 5) + total * 0.08).toFixed(2)}
+                  ₹{(total + (total > 100 ? 0 : 5) + total * 0.08).toFixed(2)}
                 </dd>
               </div>
             </dl>

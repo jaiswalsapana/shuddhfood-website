@@ -114,15 +114,14 @@ export default function ProductDetails() {
             </h1>
 
             <div className="text-3xl font-medium text-gray-900 mb-8">
-              ${product.price.toFixed(2)}
+              ₹{product.price.toFixed(2)}
             </div>
 
             <div className="prose prose-sm text-gray-600 mb-10 text-lg leading-relaxed">
               <p>{product.description}</p>
               <p className="mt-4">
-                Designed with premium materials to ensure lasting comfort and
-                durability. This piece represents our commitment to minimalist
-                design and sustainable styling.
+                Made with the finest natural ingredients, carefully sourced
+                and handcrafted to preserve authentic flavors and nutritional value.
               </p>
             </div>
 
@@ -185,7 +184,7 @@ export default function ProductDetails() {
                   </svg>
                 </div>
                 <p className="ml-3 text-sm text-gray-500">
-                  Free shipping on orders over $100
+                  Free shipping on orders over ₹1000
                 </p>
               </div>
               <div className="flex items-start">
@@ -205,7 +204,7 @@ export default function ProductDetails() {
                   </svg>
                 </div>
                 <p className="ml-3 text-sm text-gray-500">
-                  Free 30-day returns
+                  Easy exchange & return policy
                 </p>
               </div>
             </div>
