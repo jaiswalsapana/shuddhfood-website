@@ -9,18 +9,18 @@ app.use(express.json());
 let products = [
   {
     id: 1,
-    name: "Classic White Tee",
-    price: 29.99,
-    description: "Essential premium cotton t-shirt. Soft, breathable, and perfect for everyday wear.",
-    category: "Clothing",
+    name: "Jaggery",
+    price: 9.00,
+    description: "Jaggery is a type of unrefined sugar made from sugarcane juice or palm sap. It is used in various Indian dishes.",
+    category: "Pickles & Jams",
     image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 2,
-    name: "Minimalist Watch",
-    price: 149.00,
-    description: "Elegant timepiece with a genuine leather strap and minimal dial design.",
-    category: "Accessories",
+    name: "Soya Chunks",
+    price: 12.50,
+    description: "High-protein, low-fat soya chunks made from defatted soy flour. A versatile ingredient perfect for curries, stir-fries, and snacks.",
+    category: "Snacks",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   }
 ];
