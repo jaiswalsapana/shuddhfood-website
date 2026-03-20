@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import productsData from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import Loader from "../components/Loader";
 import { Search } from "lucide-react";
+import API from "../config/api";
 
 export default function ProductList() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -13,14 +13,29 @@ export default function ProductList() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState(categoryParam);
+  const [allProducts, setAllProducts] = useState([]);
+  const [categories, setCategories] = useState(["All"]);
 
-  const categories = ["All", ...new Set(productsData.map((p) => p.category))];
-
+  // Fetch all products on mount
   useEffect(() => {
-    // Reset loading state when category changes
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(API.GET_ALL_PRODUCTS);
+        const data = await response.json();
+        setAllProducts(data);
+        setCategories(["All", ...new Set(data.map((p) => p.category))]);
+      } catch (error) {
+        console.error("Failed to fetch products:", error);
+      }
+    };
+    fetchProducts();
+  }, []);
+
+  // Filter products when category or search changes
+  useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => {
-      let filtered = productsData;
+      let filtered = allProducts;
 
       if (selectedCategory !== "All") {
         filtered = filtered.filter((p) => p.category === selectedCategory);
@@ -39,7 +54,7 @@ export default function ProductList() {
     }, 600);
 
     return () => clearTimeout(timer);
-  }, [selectedCategory, searchTerm]);
+  }, [selectedCategory, searchTerm, allProducts]);
 
   // Update category when URL param changes
   useEffect(() => {

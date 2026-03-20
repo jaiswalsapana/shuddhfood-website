@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, ShoppingBag } from "lucide-react";
 import { toast } from "react-hot-toast";
-import productsData from "../data/products.json";
 import { useCart } from "../context/CartContext";
+import API from "../config/api";
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -18,16 +18,21 @@ export default function ProductDetails() {
     // Scroll to top on load
     window.scrollTo(0, 0);
 
-    // Simulate API fetch
-    const timer = setTimeout(() => {
-      const found = productsData.find((p) => p.id === parseInt(id));
-      if (found) {
-        setProduct(found);
+    // Fetch product from API
+    const fetchProduct = async () => {
+      try {
+        const response = await fetch(API.GET_PRODUCT(id));
+        if (!response.ok) throw new Error("Product not found");
+        const data = await response.json();
+        setProduct(data);
+      } catch (error) {
+        console.error("Failed to fetch product:", error);
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
-    }, 600);
+    };
 
-    return () => clearTimeout(timer);
+    fetchProduct();
   }, [id]);
 
   if (loading) {

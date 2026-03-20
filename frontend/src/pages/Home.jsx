@@ -1,20 +1,27 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import productsData from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import Loader from "../components/Loader";
 import { ShieldCheck, Truck, Star, Leaf } from "lucide-react";
+import API from "../config/api";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [featured, setFeatured] = useState([]);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setFeatured(productsData.slice(0, 4));
-      setLoading(false);
-    }, 800);
-    return () => clearTimeout(timer);
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(API.GET_ALL_PRODUCTS);
+        const data = await response.json();
+        setFeatured(data.slice(0, 4));
+        setLoading(false);
+      } catch (error) {
+        console.error("Failed to fetch featured products:", error);
+        setLoading(false);
+      }
+    };
+    fetchProducts();
   }, []);
 
   return (
