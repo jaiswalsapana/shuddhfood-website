@@ -13,7 +13,7 @@ let products = [
     price: 9.00,
     description: "Jaggery is a type of unrefined sugar made from sugarcane juice or palm sap. It is used in various Indian dishes.",
     category: "Pickles & Jams",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://shuddh-food.vercel.app/assets/jaggery.jpeg"
   },
   {
     id: 2,
@@ -21,7 +21,55 @@ let products = [
     price: 12.50,
     description: "High-protein, low-fat soya chunks made from defatted soy flour. A versatile ingredient perfect for curries, stir-fries, and snacks.",
     category: "Snacks",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://shuddh-food.vercel.app/assets/soya-chunk.jpeg"
+  },
+  {
+    id: 3,
+    name: "Hing",
+    price: 5.99,
+    description: "Premium quality hing (asafoetida) with a pungent aroma and authentic flavor. Perfect for Indian cooking.",
+    category: "Spices",
+    image: "https://shuddh-food.vercel.app/assets/hing.jpeg"
+  },
+  {
+    id: 4,
+    name: "Peanut Chikki",
+    price: 11.00,
+    description: "Crunchy, sweet, and nutty peanut chikki made with jaggery and fresh peanuts. A traditional Indian brittle perfect for a quick energy boost.",
+    category: "Snacks",
+    image: "https://shuddh-food.vercel.app/assets/peannut-chiki.jpeg"
+  },
+  {
+    id: 5,
+    name: "Pink Rock Salt",
+    price: 14.99,
+    description: "Pink rock salt is a type of salt that is pink in color and is used in cooking and as a seasoning.",
+    category: "Sweets",
+    image: "https://shuddh-food.vercel.app/assets/pink-rock-salt.jpeg"
+  },
+  {
+    id: 6,
+    name: "Seviyan",
+    price: 7.50,
+    description: "Seviyan is a type of vermicelli made from wheat flour and is used in various Indian dishes.",
+    category: "Spices",
+    image: "https://shuddh-food.vercel.app/assets/seviyan.jpeg"
+  },
+  {
+    id: 7,
+    name: "Makhana",
+    price: 8.99,
+    description: "Traditional sweet and spicy mango pickle made with farm-fresh mangoes and sun-dried spices. A perfect accompaniment to any Indian meal.",
+    category: "Snacks",
+    image: "https://shuddh-food.vercel.app/assets/makhana.jpeg"
+  },
+  {
+    id: 8,
+    name: "Black Salt",
+    price: 15.00,
+    description: "Black salt is a type of salt that is black in color and is used in cooking and as a seasoning.",
+    category: "Spices",
+    image: "https://shuddh-food.vercel.app/assets/black-salt.jpeg"
   }
 ];
 
