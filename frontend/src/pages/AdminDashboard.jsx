@@ -1,5 +1,5 @@
 import { useState } from "react";
-import productsData from "../data/products.json";
+import productsData from "../data/products";
 import { Edit, Trash2, Plus, LogOut } from "lucide-react";
 import { toast } from "react-hot-toast";
 
