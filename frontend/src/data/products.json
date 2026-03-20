@@ -1,0 +1,66 @@
+[
+  {
+  "id": 1,
+    "name": "Jaggery",
+    "price": 9.00,
+    "description": "Jaggery is a type of unrefined sugar made from sugarcane juice or palm sap. It is used in various Indian dishes.",
+    "category": "Pickles & Jams",
+    "image": "./src/assets/jaggery.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Soya Chunks",
+    "price": 12.50,
+    "description": "High-protein, low-fat soya chunks made from defatted soy flour. A versatile ingredient perfect for curries, stir-fries, and snacks.",
+    "category": "Snacks",
+    "image": "./src/assets/soya-chunk.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Hing",
+    "price": 5.99,
+    "description": "Premium quality hing (asafoetida) with a pungent aroma and authentic flavor. Perfect for Indian cooking.",
+    "category": "Spices",
+    "image": "./src/assets/hing.jpeg"
+  },
+  {
+    "id": 4,
+     "name": "Peanut Chikki",
+    "price": 11.00,
+    "description": "Crunchy, sweet, and nutty peanut chikki made with jaggery and fresh peanuts. A traditional Indian brittle perfect for a quick energy boost.",
+    "category": "Snacks",
+    "image": "./src/assets/peannut-chiki.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Pink Rock Salt",
+    "price": 14.99,
+    "description": "Pink rock salt is a type of salt that is pink in color and is used in cooking and as a seasoning.",
+    "category": "Sweets",
+    "image": "./src/assets/pink-rock-salt.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Seviyan",
+    "price": 7.50,
+    "description": "Seviyan is a type of vermicelli made from wheat flour and is used in various Indian dishes.",
+    "category": "Spices",
+    "image": "./src/assets/seviyan.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Makhana",
+    "price": 8.99,
+    "description": "Traditional sweet and spicy mango pickle made with farm-fresh mangoes and sun-dried spices. A perfect accompaniment to any Indian meal.",
+    "category": "Snacks",
+    "image": "./src/assets/makhana.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Black Salt",
+    "price": 15.00,
+    "description": "Black salt is a type of salt that is black in color and is used in cooking and as a seasoning.",
+    "category": "Spices",
+    "image": "./src/assets/black-salt.jpeg"
+  }
+]
