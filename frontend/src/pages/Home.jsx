@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import Loader from "../components/Loader";
 import { ShieldCheck, Truck, Star, Leaf } from "lucide-react";
+import heroImage from "../assets/khajurshop.jpeg";
 import API from "../config/api";
 
 export default function Home() {
@@ -102,7 +103,7 @@ export default function Home() {
             <div className="hidden md:block md:w-[45%]">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <img
-                  src="./src/assets/khajurshop.jpeg"
+                  src={heroImage}
                   alt="Delicious homemade food by Shuddh Foods"
                   className="w-full h-[150%] object-cover"
                 />

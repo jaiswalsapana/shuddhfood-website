@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { ShoppingBag, Search, User, Menu, X, Leaf } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { useState } from "react";
+import logoSuddh from "../assets/logo-suddh.png";
 
 export default function Navbar() {
   const { getCartCount } = useCart();
@@ -40,9 +41,9 @@ export default function Navbar() {
               <div className="flex flex-col leading-tight">
                 <span className="text-base font-extrabold text-gray-900 tracking-tight leading-none">
                   <img
-                    src="./src/assets/logo-suddh.png"
+                    src={logoSuddh}
                     alt="Logo"
-                    className="h-14 w-28 text-white"
+                    className="h-14 w-28"
                   />
                 </span>
                 {/* <span className="text-[9px] font-medium text-amber-600 tracking-widest uppercase leading-none">
