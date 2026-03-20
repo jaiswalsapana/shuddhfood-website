@@ -118,7 +118,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-gray-500 text-xs text-center">
-            © {new Date().getFullYear()} <span className="text-amber-500 font-medium">ABPH Best Food Private Limited</span>. All rights reserved. | Brand: Shuddh Foods®
+            © {new Date().getFullYear()} <span className="text-amber-500 font-medium">ABPH Best Food Private Limited</span>. All rights reserved. | Brand: Shuddh Foods
           </p>
           <div className="flex space-x-5 text-gray-500 text-xs">
             <a href="#" className="hover:text-amber-400 transition-colors">Privacy Policy</a>
