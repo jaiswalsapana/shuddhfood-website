@@ -82,7 +82,7 @@ export default function Footer() {
               <li className="flex items-start gap-2.5 text-gray-400">
                 <MapPin className="h-4 w-4 text-amber-500 mt-0.5 shrink-0" />
                 <span>
-                  H. No. 8, Ayush Vihar Colony Phase II,<br />
+                  Ayush Vihar Colony Phase II,<br />
                   Jankipuram Ext., Lucknow,<br />
                   Uttar Pradesh – 226021
                 </span>
