@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, MapPin, Mail, Phone, Leaf } from "lucide-react";
+import logoSuddh from "../assets/logo-suddh.png";
 
 export default function Footer() {
   return (
@@ -21,7 +22,7 @@ export default function Footer() {
               <div>
                   <span className="text-base font-extrabold text-gray-900 tracking-tight leading-none">
                       <img src={logoSuddh} alt="Logo" className="h-14 w-28"/>
-                  </span>
+                                </span>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-5 leading-relaxed">
