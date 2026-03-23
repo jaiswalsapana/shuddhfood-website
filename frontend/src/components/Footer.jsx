@@ -19,8 +19,9 @@ export default function Footer() {
                 <Leaf className="h-4 w-4 text-white" />
               </div>
               <div>
-                <h3 className="text-white font-extrabold text-lg leading-tight">Shuddh Foods</h3>
-                <p className="text-amber-400 text-[10px] tracking-widest uppercase">ABPH Best Food Pvt. Ltd.</p>
+                  <span className="text-base font-extrabold text-gray-900 tracking-tight leading-none">
+                      <img src={logoSuddh} alt="Logo" className="h-14 w-28"/>
+                  </span>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-5 leading-relaxed">
