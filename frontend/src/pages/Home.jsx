@@ -181,17 +181,15 @@ export default function Home() {
                 color: "from-orange-500/70",
               },
               {
-                name: "Sweets",
-                desc: "Traditional mithai & treats",
-                image:
-                  "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                name: "Snacks",
+                desc: "Traditional sweet and spicy mango pickle made with farm-fresh mangoes and sun-dried spices.",
+                image: "/assets/makhana.jpeg",
                 color: "from-pink-500/70",
               },
               {
-                name: "Pickles & Jams",
-                desc: "Tangy, spicy, finger-licking",
-                image:
-                  "https://images.unsplash.com/photo-1600180735391-f92d4f29d10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                name: "Snacks",
+                desc: "Crunchy, sweet, and nutty peanut chikki made with jaggery and fresh peanuts.",
+                image: "/assets/peannut-chiki.jpeg",
                 color: "from-green-600/70",
               },
             ].map((category) => (
