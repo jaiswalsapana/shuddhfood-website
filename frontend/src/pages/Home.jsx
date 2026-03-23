@@ -175,10 +175,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                name: "Snacks",
-                desc: "Crispy, crunchy, irresistible",
-                image:
-                  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                name: "Spices",
+                desc: "Premium quality hing (asafoetida) with a pungent aroma and authentic flavor.",
+                image: "/assets/hing.jpeg",
                 color: "from-orange-500/70",
               },
               {

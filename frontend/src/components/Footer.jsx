@@ -16,13 +16,13 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <div className="bg-amber-500 rounded-lg p-1.5">
+              {/* <div className="bg-amber-500 rounded-lg p-1.5">
                 <Leaf className="h-4 w-4 text-white" />
-              </div>
+              </div> */}
               <div>
                   <span className="text-base font-extrabold text-gray-900 tracking-tight leading-none">
                       <img src={logoSuddh} alt="Logo" className="h-14 w-28"/>
-                                </span>
+                  </span>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-5 leading-relaxed">
@@ -67,7 +67,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Help</h4>
             <ul className="space-y-2.5 text-sm">
-              {["Shipping & Returns", "FAQ", "Contact Us", "Track Order"].map((label) => (
+              {["Contact Us", "Track Order"].map((label) => (
                 <li key={label}>
                   <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-200 hover:pl-1 inline-block">
                     → {label}
