@@ -49,7 +49,6 @@ export default function Footer() {
                 { to: "/products", label: "All Products" },
                 { to: "/products?category=Snacks", label: "Snacks" },
                 { to: "/products?category=Sweets", label: "Sweets" },
-                { to: "/products?category=Pickles & Jams", label: "Pickles & Jams" },
               ].map((item) => (
                 <li key={item.to}>
                   <Link

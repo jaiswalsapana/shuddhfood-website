@@ -4,7 +4,7 @@ const productsData = [
     name: "Jaggery",
     price: 9.0,
     description: "Jaggery is a type of unrefined sugar made from sugarcane juice or palm sap. It is used in various Indian dishes.",
-    category: "Pickles & Jams",
+    category: "Snacks",
     image: "/assets/jaggery.jpeg",
   },
   {

@@ -15,7 +15,6 @@ export default function Navbar() {
     { to: "/products", label: "Shop" },
     { to: "/products?category=Snacks", label: "Snacks" },
     { to: "/products?category=Sweets", label: "Sweets" },
-    { to: "/products?category=Pickles & Jams", label: "Pickles & Jams" },
   ];
 
   return (
