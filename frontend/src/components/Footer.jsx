@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300">
       {/* Top Brand Bar */}
       <div className="bg-amber-600 py-3 text-center text-white text-sm font-medium tracking-wide">
-        🌿 Pure. Natural. Homemade. — Shuddh Foods by ABPH Best Food Pvt. Ltd.
+        🌿 Pure. Natural. Premium Quality — Shuddh Foods by ABPH Best Food Pvt. Ltd.
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-5 leading-relaxed">
-              Handcrafted homemade goodness. Fresh ingredients meet traditional recipes, straight from our kitchen to your door.
+              Premium Quality Goodness. Fresh ingredients meet traditional recipes.
             </p>
             <div className="flex space-x-3">
               <a href="#" className="bg-gray-800 hover:bg-amber-600 text-gray-400 hover:text-white p-2 rounded-lg transition-all duration-300">

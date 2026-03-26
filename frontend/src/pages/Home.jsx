@@ -48,7 +48,7 @@ export default function Home() {
                 Taste the{" "}
                 <span className="text-[#82a648] italic">authentic</span>
                 <br />
-                homemade goodness.
+                premium goodness.
               </h1>
               <p className="text-base text-gray-500 mb-6 max-w-md leading-relaxed">
                 Discover traditional recipes made with farm-fresh ingredients by{" "}

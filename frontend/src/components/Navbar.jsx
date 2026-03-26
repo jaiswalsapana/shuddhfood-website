@@ -13,8 +13,8 @@ export default function Navbar() {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/products", label: "Shop" },
-    { to: "/products?category=Snacks", label: "Snacks" },
-    { to: "/products?category=Sweets", label: "Sweets" },
+    { to: "/#", label: "About Us" },
+    // { to: "/products?category=Sweets", label: "Sweets" },
   ];
 
   return (

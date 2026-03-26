@@ -10,7 +10,7 @@ let products = [
   {
     id: 1,
     name: "Jaggery",
-    price: 9.00,
+    price: 90.00,
     description: "Jaggery is a type of unrefined sugar made from sugarcane juice or palm sap. It is used in various Indian dishes.",
     category: "Snacks",
     image: "https://shuddh-food.vercel.app/assets/jaggery.jpeg"
