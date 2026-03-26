@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import Loader from "../components/Loader";
 import { ShieldCheck, Truck, Star, Leaf } from "lucide-react";
-import heroImage from "../assets/khajurshop.jpeg";
+import heroImage from "../assets/khajur-img.png";
 import API from "../config/api";
 import bannerImage from "../assets/banner-jaggery.png";
 
@@ -106,7 +106,7 @@ export default function Home() {
                 <img
                   src={heroImage}
                   alt="Delicious homemade food by Shuddh Foods"
-                  className="w-full h-[150%] object-cover"
+                  className="w-full h-full object-cover"
                 />
                 {/* Floating card */}
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-2.5 shadow-lg flex items-center gap-2">
