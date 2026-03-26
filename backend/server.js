@@ -18,7 +18,7 @@ let products = [
   {
     id: 2,
     name: "Soya Chunks",
-    price: 12.50,
+    price: 20.50,
     description: "High-protein, low-fat soya chunks made from defatted soy flour. A versatile ingredient perfect for curries, stir-fries, and snacks.",
     category: "Snacks",
     image: "https://shuddh-food.vercel.app/assets/soya-chunk.jpeg"
@@ -26,7 +26,7 @@ let products = [
   {
     id: 3,
     name: "Hing",
-    price: 5.99,
+    price: 50.99,
     description: "Premium quality hing (asafoetida) with a pungent aroma and authentic flavor. Perfect for Indian cooking.",
     category: "Spices",
     image: "https://shuddh-food.vercel.app/assets/hing.jpeg"
@@ -34,7 +34,7 @@ let products = [
   {
     id: 4,
     name: "Peanut Chikki",
-    price: 11.00,
+    price: 20.00,
     description: "Crunchy, sweet, and nutty peanut chikki made with jaggery and fresh peanuts. A traditional Indian brittle perfect for a quick energy boost.",
     category: "Snacks",
     image: "https://shuddh-food.vercel.app/assets/peannut-chiki.jpeg"
@@ -42,7 +42,7 @@ let products = [
   {
     id: 5,
     name: "Pink Rock Salt",
-    price: 14.99,
+    price: 140.99,
     description: "Pink rock salt is a type of salt that is pink in color and is used in cooking and as a seasoning.",
     category: "Sweets",
     image: "https://shuddh-food.vercel.app/assets/pink-rock-salt.jpeg"
@@ -50,7 +50,7 @@ let products = [
   {
     id: 6,
     name: "Seviyan",
-    price: 7.50,
+    price: 70.50,
     description: "Seviyan is a type of vermicelli made from wheat flour and is used in various Indian dishes.",
     category: "Spices",
     image: "https://shuddh-food.vercel.app/assets/seviyan.jpeg"
@@ -58,7 +58,7 @@ let products = [
   {
     id: 7,
     name: "Makhana",
-    price: 8.99,
+    price: 80.99,
     description: "Traditional sweet and spicy mango pickle made with farm-fresh mangoes and sun-dried spices. A perfect accompaniment to any Indian meal.",
     category: "Snacks",
     image: "https://shuddh-food.vercel.app/assets/makhana.jpeg"
@@ -66,7 +66,7 @@ let products = [
   {
     id: 8,
     name: "Black Salt",
-    price: 15.00,
+    price: 55.00,
     description: "Black salt is a type of salt that is black in color and is used in cooking and as a seasoning.",
     category: "Spices",
     image: "https://shuddh-food.vercel.app/assets/black-salt.jpeg"
