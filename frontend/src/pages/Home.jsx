@@ -5,6 +5,7 @@ import Loader from "../components/Loader";
 import { ShieldCheck, Truck, Star, Leaf } from "lucide-react";
 import heroImage from "../assets/khajurshop.jpeg";
 import API from "../config/api";
+import bannerImage from "../assets/banner-jaggery.png";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -226,6 +227,21 @@ export default function Home() {
         <h2 className="text-center text-2xl font-bold text-gray-900 mb-8">
           Why Choose <span className="text-amber-600">Shuddh Foods?</span>
         </h2>
+
+        <div className="w-full h-[60vh] overflow-hidden rounded-2xl shadow-lg">
+          <img
+            src={bannerImage}
+            alt="banner-img"
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+      </div>
+
+      {/* ── Why Shuddh Foods ── */}
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 border-t border-gray-100">
+        <h2 className="text-center text-2xl font-bold text-gray-900 mb-8">
+          Why Choose <span className="text-amber-600">Shuddh Foods?</span>
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             {
@@ -263,7 +279,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
